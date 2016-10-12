@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Form-Jquery</title>
+
+</head>
+
+<body>
+
+    <div class="container auth">
+    <div id="big-form" class="well auth-box">
+      <form id="form_register" name="form_register" action="#">
+        <fieldset>
+
+          <!-- Form Name -->
+          <legend>Form Login</legend>
+
+          <!-- Username input-->
+          <div class="form-group">
+            <label class=" control-label" for="textinput">Username</label>  
+            <div class="">
+              <input id="userinput" name="textinput" placeholder="Username" class="form-control input-md" type="text" value="" oninput="isUsername(value)">
+              <span id="iduserspan"></span>             
+            </div>
+          </div>
+          
+          <!-- Email address input-->
+          <div class="form-group">
+            <label class=" control-label" for="emailinput">Email address</label>  
+            <div class="">
+              <input id="emailinput" name="emailinput" placeholder="Email address" class="form-control input-md" type="text" value="" oninput="isEmail(value)"> 
+              <span id="idemailspan"></span>            
+            </div>
+          </div>
+
+          <!-- Password input-->
+          <div class="form-group">
+               <div class="row">
+                   <div class="col-xs-5">
+                       <label class=" control-label" for="passwordinput">Password</label>
+                   </div>
+                   <div class="col-xs-6">
+                       <input type="button" id="idGenpass" name="Genpass" class="btn btn-primary" value="Gen Password" >
+                   </div>
+                   <div class="col-xs-1">
+                       <input type="text" id="txtlengthpass" name="txtlengthpass" placeholder="Num" value="8">
+                    </div>
+               </div>
+               <span id="idspantxtlengthpass"></span>
+            
+            <div class="">
+              <input id="passwordinput" name="passwordinput" placeholder="Password" class="form-control input-md" type="password" value="" oninput="isPass(value)">
+              <span id="idpassspan"></span>
+            </div>
+          </div>
+        
+         <!-- Re-Password input-->
+          <div class="form-group" id="myDivRe-pass">
+            <label class=" control-label" for="re-passwordinput" id="idRe-pass">Re-Password</label>
+            <div class="">
+              <input id="re-passwordinput" name="re-passwordinput" placeholder="Re-Password" class="form-control input-md" type="password" value="" oninput="isRe_pass(value,form_register.passwordinput.value)">
+              <span id="idre-passspan"></span>
+            </div>
+          </div>
+        
+          <!-- Select Basic -->
+          <div class="form-group">
+            <label class=" control-label" for="selectbasic">Country</label>
+            <div class="">
+              <select id="selectbasic" name="selectbasic" class="form-control">
+                <option value="1">Vietnam</option>
+                <option value="2">United State</option>
+                <option value="3">United Kingdom</option>
+                <option value="4">Germany</option>
+                <option value="5">France</option>
+                <option value="6">Japan</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Multiple Radios (inline) -->
+            
+          <div class="form-group" id="idGender">
+           <label class=" control-label" for="radios">Gender</label>
+            <div class=""> 
+              <label class="radio-inline" for="radios-0" id="idmale" name="lbGender">
+                <input name="Gender" id="radios-0" value="Male" checked="checked" type="radio">
+                Male
+              </label> 
+              <label class="radio-inline" for="radios-1" id="idfemale" name="lbGender">
+                <input name="Gender" id="radios-1" value="Female" type="radio">
+                Female
+              </label> 
+            </div>
+          </div>
+
+
+          <!-- Submit -->
+          <div class="form-group">
+            <div class="">
+              <button id="singlebutton" name="singlebutton" class="btn btn-warning btnSubmit">Submit</button>
+              <span class="wait" id="loadingtext" style="display: none">Wait 2 sec...></span>
+            </div>
+          </div>
+ 
+        </fieldset>
+          <div id="idlocal"></div>
+      </form>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/hander.js"></script>
+
+</body>
+
+</html>
