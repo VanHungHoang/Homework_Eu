@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body onload ="login()";> 
+    <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+    <script type="text/javascript">
+                
+        function login(){
+        //var email = document.getElementById("idEmail");
+        //var password = document.getElementById("idPass");
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var obj = JSON.parse(this.responseText);
+                alert(23456789);
+                console.log(obj);
+//                var n = obj.users.length;
+//
+//                for (var i = 0; i < n; i++) {
+//                    if (email.value == obj.users[i].email && password.value == obj.users[i].pass) {
+//                        alert("Login success !");
+//                        break;
+//                    }else{
+//                        alert("Email or Pass wrong");
+//                        break;
+//                    }                       
+//                } 
+            }
+        };
+        xhttp.open("GET", "createTable.json", true);
+        xhttp.send();
+    }
+        
+    </script>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+    <script type="application/ecmascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/createTable.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="exponential.js"></script>
+</body>
+</html>
