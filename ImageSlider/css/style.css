@@ -1,0 +1,32 @@
+.container{
+    background-color: darksalmon;
+    margin-bottom: 5px;
+    
+}
+
+
+.col-xs-12 img{ 
+    width: 95%;
+    height: 60vh;
+}
+
+.col-xs-2{
+/*    background-color: chocolate!important;*/
+    height: 300px;
+}
+
+.mebeforeU img{
+    width: 100%;
+    
+}
+
+.imagesbook img{
+    width: 100%;
+}
+
+.row{
+    margin-top: 10px;
+}
+.typeahead{
+    font-size: 1.3em;  
+}
