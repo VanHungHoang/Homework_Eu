@@ -1,0 +1,162 @@
+body{
+    font-family: 'Biryani', sans-serif;
+    font-weight: 500;
+}
+
+@media (max-height: 500px){
+.modal-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}
+.modal-content{
+    margin-top: 11vh;
+    box-shadow: 0 10px #d1d1d1;
+    border-radius: 16px;
+    max-width: 628px;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+     border: none !important; 
+}
+@media (min-width: 500px){
+    .modal-header p{
+         font-size: 15px !important;
+    }
+}
+.modal-title {
+    margin: 40px;
+    line-height: 1.42857143;
+}
+
+.howtoplay{
+    font-size: 2em !important;
+    margin-bottom: .5em !important;
+    font-family: 'Biryani', sans-serif; !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    color: #353e67  !important;
+}
+
+
+
+.modal-header p{
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
+    color: #353e67;
+    font-size: 10px;
+    font-weight: bold!important;  
+}
+
+.model-img1-text img{
+    width: 38%;
+    position: relative;
+    left: 7vw;
+    top: -2vh;
+}
+
+}
+
+.pwrong{
+    position: relative;
+    left: -62px;
+    top: 2vh;
+    color: #353e67;
+    font-size: 1em; 
+}
+.model-img-text-text1 p{
+   position: relative;
+    left: -62px;
+    top: 2vh;
+    color: #353e67;
+    font-size: 1em;
+}
+@media (max-width: 500px){
+.model-img-text-text1 p{
+  font-size: 10px;
+    position: relative;
+    left: -62px;
+    top: 2vh;
+}
+}
+
+.model-img2-text img{
+    width: 38%;
+    position: relative;
+    left: 7.5vw;
+}
+.model-img-text-text2 p{
+    position: relative;
+    left: -62px;
+    top: 5vh;
+    color: #353e67;
+    font-size: 1em;
+}
+@media (max-width: 500px){
+.model-img-text-text2 p{
+    font-size: 10px;
+     position: relative;
+    left: -62px;
+    top: 5vh;
+}
+}
+
+.pJustlike{
+    text-align: center;
+    padding-left: 37px;
+    padding-top: 30px;
+    padding-right: 39px;
+}
+@media (max-width: 500px){
+.pJustlike{
+    font-size: 10px;
+}
+}
+
+
+.pTheparty{
+   text-align: center;
+    padding-left: 47px;
+    padding-right: 47px;
+   padding-top: 13px;
+}
+@media (max-width: 500px){
+.pTheparty{
+    font-size: 10px;
+}
+}
+
+
+.button {
+  display: inline-block;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding: 6px 23px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #77bfa1;
+  background-color: #ffffff;
+  border: 6px solid #77bfa1;
+  box-shadow:  -5px 5px 1px 1px  #77bfa1;
+  position: relative;
+  left: 42%;
+    
+    
+}
+
+.button:hover {
+/*  background-color: #3e8e41;*/
+  box-shadow:  0 0 #77bfa1;
+  transform: translateY(4px);}
+
+/*.button:active {*/
+/*  background-color: #3e8e41;*/
+/*  box-shadow: 0 5px #666;*/
+/*  transform: translateY(4px);*/
+/*}*/
