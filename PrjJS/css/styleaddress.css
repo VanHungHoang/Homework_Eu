@@ -1,0 +1,450 @@
+#washington{
+    position: absolute;
+    top: 46px;
+    left: 119px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;
+}
+#Montana{
+    position: absolute;
+    top: 49px;
+    left: 161px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;
+}
+#North_Dakota{
+    position: absolute;
+    top: 54px;
+    left: 193px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;
+}
+#Minnesota{
+    position: absolute;
+    top: 57px;
+    left: 234px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#Wisconsin{
+    position: absolute;
+    top: 72px;
+    left: 257px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#Michigan{
+    position: absolute;
+    top: 83px;
+    left: 287px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#Maine{
+    position: absolute;
+    top: 54px;
+    left: 368px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#New_York{
+    position: absolute;
+    top: 73px;
+    left: 337px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#Vermont{
+    position: absolute;
+    top: 73px;
+    left: 346px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#New_Hampshire{
+    position: absolute;
+    top: 73px;
+    left: 346px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none; 
+}
+#Massachusetts{
+    position: absolute;
+    top: 88px;
+    left: 356px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Connecticut{
+    position: absolute;
+    top: 93px;
+    left: 356px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Rhode_Island{
+    position: absolute;
+    top: 97px;
+    left: 362px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#New_Jersey{
+    position: absolute;
+    top: 108px;
+    left: 362px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Pennsylvania{
+    position: absolute;
+    top: 108px;
+    left: 317px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Delaware{
+    position: absolute;
+    top: 119px;
+    left: 347px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Maryland{
+    position: absolute;
+    top: 119px;
+    left: 353px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Virginia{
+    position: absolute;
+    top: 129px;
+    left: 335px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Distr_of_Col{
+    position: absolute;
+    top: 129px;
+    left: 335px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#West_Virginia{
+    position: absolute;
+    top: 129px;
+    left: 310px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Ohio{
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Indiana{
+    position: absolute;
+    top: 114px;
+    left: 284px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Kentucky{
+    position: absolute;
+    top: 126px;
+    left: 288px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#North_Carolina{
+    position: absolute;
+    top: 137px;
+    left: 320px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Tennessee{
+    position: absolute;
+    top: 137px;
+    left: 282px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#South_Carolina{
+    position: absolute;
+    top: 158px;
+    left: 308px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Georgia{
+    position: absolute;
+    top: 165px;
+    left: 303px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Florida{
+    position: absolute;
+    top: 183px;
+    left: 318px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Alabama{
+    position: absolute;
+    top: 156px;
+    left: 283px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Illinois{
+    position: absolute;
+    top: 94px;
+    left: 267px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Louisiana{
+    position: absolute;
+    top: 161px;
+    left: 242px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Mississippi{
+    position: absolute;
+    top: 144px;
+    left: 253px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Arkansas{
+    position: absolute;
+    top: 140px;
+    left: 244px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Iowa{
+    position: absolute;
+    top: 88px;
+    left: 250px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#Missouri{
+    position: absolute;
+    top: 108px;
+    left: 240px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;     
+}
+#South_Dakota{
+    position: absolute;
+    top: 64px;
+    left: 188px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Nebraska{
+    position: absolute;
+    top: 89px;
+    left: 195px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Kansas{
+    position: absolute;
+    top: 113px;
+    left: 219px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Oklahoma{
+    position: absolute;
+    top: 113px;
+    left: 219px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Texas{
+    position: absolute;
+    top: 146px;
+    left: 219px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Wyoming{
+    position: absolute;
+    top: 75px;
+    left: 165px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Colorado{
+    position: absolute;
+    top: 99px;
+    left: 176px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#New_Mexico{
+    position: absolute;
+    top: 132px;
+    left: 162px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Idaho{
+    position: absolute;
+    top: 57px;
+    left: 142px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Utah{
+    position: absolute;
+    top: 93px;
+    left: 154px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Arizona{
+    position: absolute;
+    top: 130px;
+    left: 134px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Hawaii{
+    position: absolute;
+    top: 197px;
+    left: 178px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Alaska{
+    position: absolute;
+    top: 178px;
+    left: 114px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#Oregon{
+    position: absolute;
+    top: 52px;
+    left: 109px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}
+#California{
+    position: absolute;
+    top: 79px;
+    left: 86px;
+    font-size: 14px;
+    z-index: 222;
+    color: #243ba2;
+    display: none;         
+}

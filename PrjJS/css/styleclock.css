@@ -1,0 +1,33 @@
+.item {
+    position: absolute;
+    left: 89vw;
+    top: 39px;
+    background-color: #77bfa1;
+    z-index: 33;
+    font-family: 'Ruslan Display', cursive;
+    color: aliceblue;
+}
+
+.item h2 {
+    text-align:center;
+    position: absolute;
+    line-height: 125px;
+    width: 100%;
+    font-size: 40px;
+    
+}
+
+.item svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 160px;
+    height: 160px;
+    
+}
+
+.circle_animation {
+  stroke-dasharray: 440; /*this value is the pixel circumference of the circle*/
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+    
+}

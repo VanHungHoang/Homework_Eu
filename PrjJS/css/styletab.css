@@ -1,0 +1,90 @@
+.container{
+    height: 900px;
+    background-color: #77bfa1;
+    z-index: 333;
+}
+.title{
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+    border-radius: 15px;
+    width: 60%;
+    left: 12vw;
+    height: 110px;
+    background-color: #b4364c;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    z-index: 4;
+   
+}
+.title h3{
+    font-weight: 700;
+    padding-top: 40px;
+}
+@media (max-width: 700px){
+    .title{
+        left: 7vw;
+    }
+    .title h3{
+         font-size: 15px !important;
+    }
+}
+
+.boxfirst{
+    width: 100%;
+    position: relative;
+}
+
+.titleblue{
+    font-size: 1.4vw;
+}
+
+.rc11, .rc12, .rc13, .rc21, .rc22, .rc23 {
+    margin-bottom: 25px;
+    margin: 5px;
+    width: 30.33%;
+    position: relative;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0 10px #6eb195;	
+    z-index: 5222;
+    line-height: 80px;   
+    font-style: italic;
+    font-weight: 700;
+    float: left;
+    font-size: 1vw;;
+}
+@media(max-width: 700px){
+
+    .boxfirst{
+        font-size: 15px !important;
+    }
+    .titleblue{
+        font-size: 13px !important;
+    }
+    .rc11, .rc12, .rc13, .rc21, .rc22, .rc23{
+        font-size: 13px !important;
+        width: 47%;;
+        position: relative;
+        left: -20%;
+    }
+}
+.mydiv:hover {
+/*  background-color: #3e8e41;*/
+  box-shadow:  0 0 #6eb195;
+  transform: translateY(4px);}
+.num03{
+    width: 90%;
+    height: 5px;
+    position: relative;
+    top: -55px;;
+}
+.hr{
+    width: 90%;
+    height: 1px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
