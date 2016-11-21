@@ -1,12 +1,12 @@
 .container-fluid{
-    height: 794px;
+    height: 100vh;
     background-color: #dc214c;
     padding: 0;
     margin: 0;
 }
 
 .mycontainblue{
-    height: 794px !important;
+    height: 100vh !important;
     width: 100%;
     background-color: #77bfa1;
     z-index: 1 !important;
@@ -345,7 +345,7 @@ div .boxarrow{
 .mainleft{
     background-color: white;
     width: 470px;
-    height: 794px;
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: -59px;
